@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+        <tr style="text-align: center;">
+            <th>Order ID</th>
+            <th>Order Number</th>
+            <th>Customer ID</th>
+            <th>Payment Method</th>
+            <th>Grand Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align: center;" *ngFor="let dataItem of OrdersList">
+            <td>{{dataItem.OrderID}}</td>
+            <td>{{dataItem.OrderNo}}</td>
+            <td>{{dataItem.CustomerID}}</td>
+            <td>{{dataItem.PMethod}}</td>
+            <td>{{dataItem.GTotal}}</td>
+        </tr>
+    </tbody>
+</table>

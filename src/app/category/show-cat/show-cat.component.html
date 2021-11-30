@@ -1,0 +1,14 @@
+<table class="table table-striped">
+    <thead>
+        <tr style="text-align: center;">
+            <th>Category ID</th>
+            <th>Category Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align: center;" *ngFor="let dataItem of CategoryList">
+            <td>{{dataItem.CategoryID}}</td>
+            <td>{{dataItem.CategoryName}}</td>
+        </tr>
+    </tbody>
+</table>

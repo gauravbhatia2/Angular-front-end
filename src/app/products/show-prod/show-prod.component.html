@@ -1,0 +1,25 @@
+<table class="table table-striped">
+    <thead>
+        <tr style="text-align: center;">
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Product Description</th>
+            <th>Image of Product</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align: center;" *ngFor="let dataItem of ProductsList">
+            <td>{{dataItem.ProductID}}</td>
+            <td>{{dataItem.ProductName}}</td>
+            <td>{{dataItem.Category}}</td>
+            <td>{{dataItem.ProductDescription}}</td>
+            <td>{{dataItem.PhotoFileName}}</td>
+            <td>
+                <button type="button" class="btn btn-light mr-1">Add to Cart</button>
+            </td>
+        </tr>
+        <tr><td colspan="6" align="center"><button class="button">Proceed to Checkout</button></td></tr>
+    </tbody>
+</table>
