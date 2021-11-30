@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import AppComponent from './app.component';
 import { CategoryComponent } from './category/category.component';
 import { ShowCatComponent } from './category/show-cat/show-cat.component';
 import { AddEditCatComponent } from './category/add-edit-cat/add-edit-cat.component';
